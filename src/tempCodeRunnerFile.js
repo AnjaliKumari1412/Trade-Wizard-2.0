@@ -1,0 +1,1 @@
+style={{ width: 1857, height: 1026, left: 32, top: 27, position: 'absolute', mixBlendMode: 'luminosity', background: '#230050', borderRadius: 36, border: '1px #1A013A solid', backdropFilter: 'blur(4px)' }}

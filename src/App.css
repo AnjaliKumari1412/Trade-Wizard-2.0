@@ -1,0 +1,48 @@
+::-webkit-scrollbar {
+    width: 12px;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+
+    background-color: #fdfdfd;
+
+}
+
+::-webkit-scrollbar-track {
+    border: 2px solid rgba(80, 80, 80, 0.53);
+    background-color: rgba(80, 80, 80, 0.53);
+}
+
+body:before {
+    content: " ";
+    animation: wave 5s linear infinite;
+    background: radial-gradient(circle, #000000 10%, #1c1c1c 20%, #000000 30%);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+@keyframes wave {
+    0% {
+        background-size: 200% 200%;
+        background-position: center;
+    }
+
+    50% {
+        background-size: 300% 300%;
+        background-position: center;
+    }
+
+    100% {
+        background-size: 200% 200%;
+        background-position: center;
+    }
+}
